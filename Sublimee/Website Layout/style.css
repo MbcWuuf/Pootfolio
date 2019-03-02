@@ -1,0 +1,214 @@
+
+/* Start of original*/
+
+body{
+	background-color: #122326;
+	color: white;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 20px;
+	line-height: 1.6em;
+	margin: 0;
+}
+
+/*Don't touch Original*/
+.container{
+	width: 80%;
+	margin:auto;
+	overflow: hidden;
+}
+
+/*Don't touch Original*/
+#main-header{
+	background-image: url('../images/underwater.jpg');
+	background-position:center right;
+	color: #214237;
+	text-align: center;
+	font-family: 'Nanum Pen Script', cursive;
+}
+
+/*Don't touch Original*/
+#main-header h1{
+	font-size: 50px;
+}
+
+/*Don't touch Original*/
+#navbar{
+	background-color: white;
+	color: black;
+	text-align: center;
+	font-family: 'Nanum Pen Script', cursive;
+	padding: 0;
+}
+
+/*Don't touch Original*/
+#navbar li{
+	display: inline;
+	font-size: 25px;
+	padding:0;
+	list-style: none;
+}
+
+/*Don't touch Original*/
+#navbar a{
+	color:black;
+	text-decoration: none;
+	padding-right: 15px
+}
+
+/*Don't touch Original*/
+#navbar a:hover{
+	color: #7bd1bf;
+}
+
+/*Don't touch Original*/
+#navbar a:active{
+	font-size: 23px;
+	color: #008cff;
+}
+
+/*Contact*/
+#contact {
+	background-image: url('../images/underwater.jpg');
+	background-position:center right;
+	color: #214237;
+	text-align: center;
+	font-family: 'Nanum Pen Script', cursive;
+	font-size: 25px;
+}
+
+/*Contact*/
+#contact li{
+	display: inline;
+	padding:0;
+	list-style: none;
+}
+
+/*Contact*/
+#contact a{
+	color: #214237;
+	text-decoration: none;
+	padding-right: 15px
+	
+}
+
+/*Contact*/
+#contact a:hover{
+	color: #44847d;
+}
+
+/*Contact*/
+#contact a:active{
+	font-size: 23px;
+	color: #008cff;
+}
+
+/*Don't touch Original*/
+#showcase{
+	background-image: url('../images/underwater.jpg');
+	background-position: center right;
+	min-height: 100px;
+	margin-bottom: 30px;
+	text-align: center;
+	font-family: 'Nanum Pen Script', cursive;
+}
+
+/*Don't touch Original*/
+#showcase h1{
+	color: #214237;
+	font-size:35px;
+	line-height: 1.6em;
+	padding-top: 10px;
+}
+
+/*Don't touch Original*/
+#main{
+	float: left;
+	width: 70%;
+	padding:0 30px;
+	box-sizing: border-box;
+	font-size: 20px;
+}
+
+/*About*/
+#about{
+	font-size: 20px;
+	text-align: center;
+	margin-right: 60px;
+	margin-left: 60px;
+}
+
+/*Don't touch Original*/
+#sidebar{
+	float: right;
+	width: 30%;
+	background-color: #091416;
+	color: white;
+	padding:10px;
+	box-sizing: border-box;
+	border-radius: 15%;
+	transition-property: background;
+	transition-duration: 350ms;
+}
+
+
+/*Don't touch Original*/
+#sidebar:hover{
+	background-color:black;
+}
+
+/*Original Hidden Text*/
+#oo{
+	color:white;
+	float: right;
+	width: 30%;
+	padding: 10px;
+	box-sizing: border-box;
+	color: transparent;
+	transition-duration: 350ms;
+}
+
+/*Original Hidden Text*/
+#oo:hover{
+	color:white;
+}
+
+/*Don't touch Original*/
+#main-footer{
+	background: #000202;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	margin-top: 50px; 
+}
+
+.art{
+	max-height: 350px;
+	max-width: 350px;
+	display: inline;
+	padding: 25px;
+	margin-left:10px;
+}
+
+/*Don't touch Original*/
+@media(max-width: 600px){
+	#main{
+		width: 100%;
+		float: none;
+	}
+
+	#sidebar{
+		width: 100%;
+		float: none;
+	}
+
+	#oo{
+		width: 100%;
+		float: none;
+	}
+
+	.deviant #drawing{
+		width: 100%;
+		float: none;
+	}
+
+}
